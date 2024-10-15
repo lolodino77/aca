@@ -17,5 +17,5 @@ select * from AVANT_PREMIERE_ACCOLADE
 --         {{ SplitsByIndex('split_result', sep=',', ind=2) }}
 --     from AVANT_PREMIERE_ACCOLADE
 -- )
-
+-- test
 -- select top 10 * from TD_ACA_FACTURES_PART_1 
