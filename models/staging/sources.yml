@@ -1,0 +1,7 @@
+version: 2
+
+sources:
+  - name: NRJBI_STG
+    database: aca
+    tables:
+      - name: TD_ACA_STAGING

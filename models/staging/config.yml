@@ -1,0 +1,31 @@
+version: 2
+
+models:
+  - name: TD_ACA_FACTURES
+
+    description: Nettoyage de la table de staging brute
+
+    config:
+        materialized: table
+        tags: ['sql']
+
+  - name: test
+
+    # Document within the same codebase
+    description: My transformation written in Python
+
+    # Configure in ways that feel intuitive and familiar
+    config:
+      materialized: table
+      tags: ['sql']
+
+    # Test the results of my Python transformation
+    # columns:
+    #   - name: id
+    #     # Standard validation for 'grain' of Python results
+    #     tests:
+    #       - unique
+    #       - not_null
+    # tests:
+    #   # Write your own validation logic (in SQL) for Python results
+    #   - [custom_generic_test](/best-practices/writing-custom-generic-tests)
